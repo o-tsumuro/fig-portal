@@ -66,13 +66,12 @@ django manage.py startapp アプリ名
 | `Update: ○○` | 更新
 | `Delete: ○○` | 削除
 ---
-### 🔁 開発の流れ（1タスク＝1ブランチ＝1PR）
+### 開発の流れ（1タスク＝1ブランチ＝1PR）
 
 1. GitHubで Issue を作成する  
 2. `develop` からブランチを切る  
 3. 作業・コミットを進める（小さくこまめに）  
 4. GitHub に Push  
-5. `develop` に向けて Pull Request を作成  
-- タイトル例：`#12 ログイン画面の作成`
-6. レビュー後、マージ（`develop` に）
-7. マージ後、`feature/〇〇` ブランチは削
+5. `develop` に向けて Pull Request を作成(例：`#12 ログイン画面の作成`)
+6. レビュー後、`develop` にマージ
+7. マージ後、`feature/〇〇` ブランチは削除
